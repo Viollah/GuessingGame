@@ -1,0 +1,22 @@
+
+#container{
+  margin:auto;
+  border:5px solid lightblue;
+  font-size:30px;
+  padding:10px;
+  text-align:center;
+  height:260px;
+  width:600px;
+  background-color:black;
+}
+p{
+  color:white;
+}
+#userInput{
+  width:170px;
+  height:23px;
+
+}
+#outputText{
+  color:red;
+}
