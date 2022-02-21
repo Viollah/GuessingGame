@@ -5,12 +5,12 @@
   font-size:30px;
   padding:10px;
   text-align:center;
-  height:260px;
+  height:360px;
   width:600px;
-  background-color:black;
+  background-color:grey;
 }
 p{
-  color:white;
+  color:black;
 }
 #userInput{
   width:170px;
