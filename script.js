@@ -18,13 +18,13 @@
         output.innerHTML="Your guess is too low";
       }
       else if(input<1){
-        output.innerHTML="Higher, it has to be between 1 and 100";
+        output.innerHTML="Lower, it has to be between 1 and 100";
       }
       else if(isNaN(input)){
         output.innerHTML="That's not a number!";
       }
       else{
-        output.innerHTML="Lower, it has to be between 1 and 100";
+        output.innerHTML="Higher, it has to be between 1 and 100";
       }
  
     }
