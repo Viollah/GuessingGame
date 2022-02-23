@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>number guessing game</title>
- <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="container">
-      <p>Welcome to Number Guessing Game!</p>
-    <p>Guess a number between 1 and 100</p>
-    <p id="outputText">Enter a number below</p>
+  
+    <div id="wrapper">
+        <form class="form">
+            
+            <p >Welcome to number guessing game!</p>
+            <p>Guess a  number between 1 and 100.</p>
+           
 
-    <input id="userInput">
-    <br>
-    <button id="enterButton">Enter</button>
-    <button id="againButton">Play again</button>
-  </div>
- 
-  <script src="script.js"></script>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+            <input type="submit" id="restart" value="Restart Game" class="restartSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p class="last_p">Previous Guesses: <span class="guesses"></span></p>
+            <p class="last_p">Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
