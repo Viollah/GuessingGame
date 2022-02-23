@@ -80,6 +80,12 @@ function endGame(){
     playGame = false;
     restartBtn.hide()
     newGame();
+
+            
+    setTimeout(function(){
+		p.innerHTML = "";
+	}, 2000);
+
 }
 
 function newGame(){
