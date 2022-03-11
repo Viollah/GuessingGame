@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Number Guessing Game</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="refresh" content="guessedNo > randomNumber"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Guessing Game</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-    <div id="wrapper">
-        <form class="form">
-            
-            <p >Welcome to number guessing game!</p>
-            <p>Guess a  number between 1 and 100.</p>
-           
+	<div class="container" >
+		
+		<p >Welcome to number guessing game!</p>
+        <p>Guess a  number between 1 and 100.</p>
 
-            <input type="text" id="guessField" class="guessField">
-            <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
-            <input type="submit" id="restart" value="Restart Game" class="restartSubmit">
-        </form>
+		<div class="content">
+			<input type="number" class="numberGuess">
+			<br>
+			<input type="button"  value="Guess" class="guessBtn" >
+		</div>
+		
 
-        <div class="resultParas">
-            <p class="last_p">Previous Guesses: <span class="guesses"></span></p>
-            <p class="last_p">Guesses Remaining: <span class="lastResult">10</span></p>
-            <p class="lowOrHi"></p>
-        </div>
-    </div>
-    
+		<div class="message" >
+			<h4>Message will be displayed here!</h4>
+		</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+	</div>
 </body>
+<script src="script.js"></script>
+<script src="guess.js"></script>
 </html>

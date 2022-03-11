@@ -1,325 +1,58 @@
-html {
-
-  font-family: sans-serif;
-
-}
-
 body {
-
-  width: 50%;
-
-  max-width: 750px;
-
-  min-width: 480px;
-
-  margin: 0 auto;
-
+	background-color: white;
+	color: grey;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 25px;
+}
+p{
+    font-size: 20px;
 }
 
-.card_div{
-
-  margin-top:60px !important;
-
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
-  border-radius: 4px !important; 
-
+.guessBtn {
+	background-color: green;
+	width: 50px 50px;
+	height: 50px;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	
 }
 
-.lastResult {
-
-  color: white;
-
-  padding: 7px;
-
+.numberGuess {
+	padding: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 25px;
+	margin: auto;
 }
 
-.guesses {
-
-  color: white;
-
-  padding: 7px;
-
-}
-
-button {
-
-  background-color: lightblue;
-
-  color: #fff;
-
-  width: 250px;
-
-  height: 50px;
-
-  border-radius: 25px;
-
-  font-size: 30px;
-
-  border-style: none;
-
-  margin-top: 30px;
+.container {
+	background-color: grey;
+	align-items: center;
+	margin: 0 25%;
+	text-align: center;
+	padding: 1%;
+	padding-bottom: 1%;
+    box-sizing: border-box;
+    width: 750px;
+    height: 450px;
+    color: #fff;
+    font-size: 25px;
+    border: 5px solid lightblue;
+	
 
 }
-
-#subt {
-
-  background-color: green;
-
-  color: #000;
-
-  width: 241px;
-
-  height: 50px;
-
-  border-radius: 25px;
-
-  font-size: 30px;
-
-  border-style: none;
-
-  margin-top: 50px;
-
-  font-weight: 600;
-
-  font-family: auto;
+.content{
+	margin-top: 50px;
 
 }
-
-#restart {
-
-  background-color: green;
-
-  color: #000;
-
-  width: 241px;
-
-  height: 50px;
-
-  border-radius: 25px;
-
-  font-size: 30px;
-
-  border-style: none;
-
-  margin-top: 50px;
-
-  font-weight: 600;
-
-  font-family: auto;
-
+.message {
+	/* margin-top: 50px; */
+	font-weight: bolder;
+	padding-bottom: 1%;
+	text-align: center;
+	color: black;
 }
 
-#guessField {
-
-  color: #000;
-
-  width: 550px;
-
-  height: 79px;
-
-  font-size: 12px;
-
-  border-style: none;
-
-  margin-top: 25px;
-
-  font-size: 12px;
-
-  
-
-  text-align: center;
-
-}
-
-#guess {
-
-  font-size: 55px;
-
-  margin-top: 120px;
-
-  color: #fff;
-
-}
-
-
-
-#wrapper {
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  width: 750px;
-
-  height: 550px;
-
-  background-color: grey;
-
-  color: #fff;
-
-  font-size: 25px;
-  border: 5px solid lightblue;
-
-}
-
-
-p {
-
-  font-size: 20px;
-
-  text-align: center;
-
-  font-family: none;
-
-  font-weight: 500;
-
-}
-
-label{
-
-  font-weight: 600;
-
-  font-size: 49px;
-
-}
-
-.last_p{
-
-  font-weight: 600 !important;
-
-  font-family: inherit !important;
-
-}
-
-.guess_div{
-
-  border: 1px solid white;
-
-  padding-right: 12px;
-
-  padding-left: 12px;
-
-  background-color: white;
-
-  color: black;
-
-  margin-left: 3px;
-
-}html {
-  font-family: sans-serif;
-}
-
-body {
-  width: 50%;
-  max-width: 750px;
-  min-width: 480px;
-  margin: 0 auto;
-}
-.card_div{
-  margin-top:60px !important;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  border-radius: 4px !important; 
-
-}
-.lastResult {
-  color: white;
-  padding: 7px;
-}
-
-.guesses {
-  color: white;
-  padding: 7px;
-}
-
-button {
-  background-color: lightblue;
-  color: #fff;
-  width: 250px;
-  height: 50px;
-  border-radius: 25px;
-  font-size: 30px;
-  border-style: none;
-  margin-top: 30px;
-  
-}
-
-#subt {
-  background-color: green;
-  color: white;
-  width: 241px;
-  height: 50px;
-  border-radius: 25px;
-  font-size: 30px;
-  border-style: none;
-  margin-top: 50px;
-  font-weight: 600;
-  font-family: auto;
- 
-}
-#restart {
-  background-color: green;
-  color: white;
-  width: 241px;
-  height: 50px;
-  border-radius: 25px;
-  font-size: 30px;
-  border-style: none;
-  margin-top: 50px;
-  font-weight: 600;
-  font-family: auto;
- 
-}
-
-#guessField {
-  color: #000;
-  width: 550px;
-  height: 79px;
-  font-size: 30px;
-  border-style: none;
-  margin-top: 25px;
-  font-size: 45px;
-  text-align: center;
-}
-
-#guess {
-  font-size: 55px;
-  margin-top: 120px;
-  color: #fff;
-}
-
-
-
-#wrapper {
-  box-sizing: border-box;
-  text-align: center;
-  width: 750px;
-  height: 550px;
-  background-color: grey;
-  color: #fff;
-  font-size: 25px;
-}
-
-
-p {
-  font-size: 20px;
-  text-align: center;
-  font-family: none;
-  font-weight: 500;
-}
-label{
-  font-weight: 600;
-  font-size: 49px;
-}
-.last_p{
-  font-weight: 600 !important;
-  font-family: inherit !important;
-}
-.guess_div{
-  border: 1px solid white;
-  padding-right: 12px;
-  padding-left: 12px;
-  background-color: white;
-  color: black;
-  margin-left: 3px;
-}
